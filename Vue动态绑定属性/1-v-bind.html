@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind 动态绑定用例</title>
+</head>
+<body>
+<div id="app">
+<img id="app">
+    {{message}}
+    <img v-bind:src="imageURL" alt=""><br>
+    <a v-bind:href="aHref">百度</a><br><br>
+    {{message}}
+
+<!-- v-bind 语法糖-->
+    <img :src="imageURL" alt=""><br>
+    <a  :href="aHref">百度</a>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '你好啊',
+            imageURL:'https://i0.hdslb.com/bfs/sycp/creative_img/202106/a4283ac2ff79d8d0d1f6ac1c391723c9.jpg@880w_388h_1c_95q',
+            aHref:'http://www.baidu.com'
+        }
+    })
+</script>
+</body>
+</html>
