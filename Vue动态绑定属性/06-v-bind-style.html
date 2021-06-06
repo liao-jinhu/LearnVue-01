@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>v-bind-style 数组语法</title>
+</head>
+<body>
+<div id="app">
+    <H1 v-bind:style="[style1,style2]">{{message}}</H1>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '你好啊',
+            style1:{ fontSize: '100px'},
+            style2:{ color: 'red',backgroundColor:'blue' }
+        }
+    })
+</script>
+
+</body>
+</html>
