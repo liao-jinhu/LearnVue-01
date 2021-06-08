@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81a555ad-5c13-433b-98d4-582012971f4b" name="Default Changelist" comment="" />
+    <list default="true" id="81a555ad-5c13-433b-98d4-582012971f4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/02-全局组件和局部组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/03-父组件和子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/03-父组件和子组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/07-组件中的data为什么是函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/07-组件中的data为什么是函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/10-组件通信-子传父(自定义事件).html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnVuejs03/10-组件化开发/10-组件通信-子传父(自定义事件).html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tWJovzcNl1vj2SLQVBKI3M0NGu" />
   <component name="ProjectViewState">
@@ -47,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622879090432</updated>
-      <workItem from="1622879091494" duration="28423000" />
+      <workItem from="1622879091494" duration="43610000" />
+      <workItem from="1623139365762" duration="39000" />
     </task>
     <servers />
   </component>
